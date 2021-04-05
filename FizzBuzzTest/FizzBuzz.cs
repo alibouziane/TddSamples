@@ -17,14 +17,8 @@ namespace FizzBuzzTest
             return input.ToString();
         }
 
-        private static bool IsDividedByFive(int input)
-        {
-            return input % 5 == 0;
-        }
+        private static bool IsDividedByFive(int input) => input % 5 == 0;
 
-        private static bool IsDividedByThree(int input)
-        {
-            return input % 3 == 0 ;
-        }
+        private static bool IsDividedByThree(int input) => input % 3 == 0;
     }
 }
